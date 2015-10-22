@@ -13,14 +13,18 @@ class Exception
           raise 'error 2!'
         end
       end
-#    rescue
-#       p 'rescue 2'
-#       raise 'error 3!'
+   rescue
+      p 'rescue 2'
+      # raise 'error 3!'
+      false
+    else
+      p 'no error'
+      true
     ensure
        p 'ensure 2'
     end
   end
 end
 
-Exception.test_1
+p Exception.test_1
 
