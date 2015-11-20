@@ -1,1 +1,5 @@
-print "Hello world\n"
+class Hello
+  def self.execute
+    print "Hello!"
+  end
+end

@@ -24,7 +24,16 @@ class Exception
        p 'ensure 2'
     end
   end
+
+  def self.test_2
+    begin
+      raise "error"
+    rescue
+      raise "error"
+    end
+  end
+
 end
 
-p Exception.test_1
+p Exception.test_2
 
