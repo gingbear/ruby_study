@@ -10,18 +10,18 @@ class Exception
           end
         rescue
           p 'rescue 1'
-          raise 'error 2!'
+          raise 'エラーを発生 2!'
         end
       end
    rescue
-      p 'rescue 2'
+      p 'エラーが起きました。'
       # raise 'error 3!'
       false
     else
-      p 'no error'
+      p 'エラーは起きませんでした。'
       true
     ensure
-       p 'ensure 2'
+       p '実行が保証されている。'
     end
   end
 end
