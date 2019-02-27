@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require "#{__dir__}/../lib/ruby_study"
+
+require 'irb'
+# require 'byebug'
+IRB.start(__FILE__)
+
